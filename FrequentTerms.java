@@ -10,13 +10,13 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-public class TopNWords {
+public class FrequentTerms {
 	private HashMap<String, Integer> wordCount = null;
 	private BufferedReader input = null;
 	private BufferedWriter output = null;
 
 	public static void main(String[] args) throws Exception {
-		new TopNWords().findTopNWords();
+		new FrequentTerms().findTopNWords();
 	}
 	
 	public void findTopNWords() throws Exception
